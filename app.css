@@ -1,0 +1,26 @@
+body {margin:0px;font-size:large;}
+.hidden {display:none;}
+.expose {display:block;} /* Here for completeness only. */
+.copyright {padding:5px;font-style:italic;font-size:small;}
+.loremipsum {margin:1em;}
+#content {margin:1em;}
+#header {margin:0;padding:0;}
+#doit {margin:0;float:right;}
+#do2 {margin:0;float:right;}
+.popup {
+  height:200px;
+  width:200px;
+  padding:0.5em;
+  background-color:#eeeeee;
+  border:1px black solid;
+  position:absolute;
+  opacity: 1;
+  border-radius: 0.5em;
+}
+
+#stack1 {left:50px;top:50px;}
+#stack2 {left:70px;top:70px;}
+#stack3 {left:90px;top:90px;}
+.bg-red   {background-color:#ee0000;}
+.bg-green {background-color:#00ee00;}
+.bg-blue  {background-color:#0000ee;}
